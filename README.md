@@ -240,5 +240,37 @@ This repository contains my code and work for the UGV-DTU Software Departmental 
 
 \* Processed images are saved separately in the `Task-3/Output` folder.
 
+### 29 August 2026
+
+#### Task 4 — Aerial Path Planning
+
+**What I did**
+
+* Started Task 4: Aerial Path Planning.
+* Analyzed the aerial images of the course.
+* Detected the road area from the aerial images.
+* Identified unsafe areas such as obstacles and potholes.
+* Implemented checkpoint-based path planning.
+* Used the **A*** pathfinding algorithm to connect the checkpoints.
+* Generated a safe path for completing one loop around the track.
+* Ensured the calculated path remains within the road and avoids detected obstacles and potholes.
+* Generated and saved an output image for each input image showing the calculated safe route.
+
+**What I learned**
+
+* Basics of aerial path planning.
+* How image masks can be used to identify safe and unsafe regions.
+* How checkpoints can simplify path planning around a track.
+* Basics of the **A*** pathfinding algorithm.
+* How to combine computer vision with path-planning algorithms.
+* How to generate visual output showing the planned route.
+
+**Result**
+
+* Task 4 completed successfully.
+* Output images were generated with the calculated safe path.
+* Task 4 code and outputs were pushed to GitHub.
+
+
 
 
